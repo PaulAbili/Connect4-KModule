@@ -1,4 +1,4 @@
-Project 3: Connect Four Game as a Linux Kernel Module
+Connect Four Game as a Linux Kernel Module
 
 Contact
 Author: Paul Abili
@@ -6,7 +6,10 @@ Campus ID:QD36016
 Email:pabili1@umbc.edu
 
 Overview
-The goal of this project is to simulate a connect 4 game. The User MUST call RESET $ before the game can be played. Player 1, always starts the game but they can start with either R or Y depending on their RESET input. The player and the computer alternate until either the player wins, the computer wins or there is no more space left on the board. All code is within the main branch NOT the master branch.
+The goal of this project is to simulate a connect 4 game. 
+The User MUST call RESET $ before the game can be played. 
+Player 1, always starts the game but they can start with either R or Y depending on their RESET input. 
+The player and the computer alternate until either the player wins, the computer wins or there is no more space left on the board. All code is within the main branch NOT the master branch.
 
 Installation and Setup
 Libraries used:
