@@ -47,16 +47,16 @@ LOSE: the computer won
 TIE: the game is a tie	
 The current status of the board ex:
 
-A B C D E F G H
------------------
-8|0 0 0 0 0 0 0 0
-7|0 0 0 0 0 0 0 0
-6|0 0 0 0 0 0 0 0
-5|0 0 0 0 0 0 0 0
-4|0 0 0 0 0 0 0 0
-3|0 0 0 0 0 0 0 0
-2|0 0 0 0 0 0 0 0
-1|0 0 0 0 0 0 0 0
+A B C D E F G H <br>
+----------------- <br>
+8|0 0 0 0 0 0 0 0 <br>
+7|0 0 0 0 0 0 0 0 <br>
+6|0 0 0 0 0 0 0 0 <br>
+5|0 0 0 0 0 0 0 0 <br>
+4|0 0 0 0 0 0 0 0 <br>
+3|0 0 0 0 0 0 0 0 <br>
+2|0 0 0 0 0 0 0 0 <br>
+1|0 0 0 0 0 0 0 0 <br>
 
 To close the Kernel Module: sudo rmmod fourinarow
 
@@ -67,12 +67,8 @@ I liked to test by running log lines such as: <br>
 <p> After such lines I would check the behavior after each drop, and I would notice if the player 1 won, noting the ability for this not to happen, because of the randomness. After the run I would check the terminal to see the behavior of the game after a game ended and would try to restart the game to see what happened and so on. </p>
 
 ### Troubleshooting
-This project honestly wasn’t that bad. <br>
-
-<p>I think most of my issues stemmed from what seemed like outdated code.
+<p>I think most of my issues stemmed from what seemed like outdated documentation.
 When I couldn’t replicate the functionality from a few different sources, I was so confused on what I was doing wrong, but when I tested the same code, the read function sometimes simply didn’t work and would endlessly loop. Additionally, when sources mentioned certain functions, I noticed the return type of a few changed from when it was published.</p>
-
-After that I realized I needed to turn to stack overflow and I fixed the issue. <br>
 
 <p> I also had issues with permissions but after looking to stack overflow, I was able to quickly fix it
 My other main problem which I wasn’t sure how to fix was after writing it seemed like there were still characters left in the buffer. Fixing it took a long time. </p>
